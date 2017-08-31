@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.nebl.wallet.android"
+    android:installLocation="internalOnly" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="false" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:name="io.nebl.wallet.android.WalletApplication"
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="io.nebl.wallet.android.ui.WalletActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="io.nebl.wallet.android.ui.SendActivity"
+            android:label="@string/send_coins_activity_title"
+            android:theme="@style/AppTheme" >
+            <intent-filter android:label="@string/app_name" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="io.nebl.wallet.android.ui.IntroActivity"
+            android:theme="@style/AppThemeNoTitleBar"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="io.nebl.wallet.android.ui.PasswordConfirmationActivity"
+            android:theme="@style/AppThemeNoTitleBar"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="io.nebl.wallet.android.ui.SignTransactionActivity"
+            android:theme="@style/AppThemeNoTitleBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="io.nebl.wallet.android.ui.ScanActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:stateNotNeeded="true"
+            android:theme="@style/AppThemeNoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="io.nebl.wallet.android.ui.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="io.nebl.wallet.android.ui.WalletActivity" />
+        </activity>
+        <activity
+            android:name="io.nebl.wallet.android.ui.AddCoinsActivity"
+            android:label="@string/title_activity_add_coins"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="io.nebl.wallet.android.ui.WalletActivity" />
+        </activity>
+        <activity
+            android:name="io.nebl.wallet.android.ui.TransactionDetailsActivity"
+            android:label="@string/title_activity_transaction_details"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="io.nebl.wallet.android.ui.ExchangeRatesActivity"
+            android:label="@string/title_activity_exchange_rates"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="io.nebl.wallet.android.ui.WalletActivity" />
+        </activity>
+        <activity
+            android:name="io.nebl.wallet.android.ui.PreviousAddressesActivity"
+            android:label="@string/title_activity_previous_addresses"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="io.nebl.wallet.android.ui.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="io.nebl.wallet.android.ui.WalletActivity" />
+        </activity>
+        <activity
+            android:name="io.nebl.wallet.android.ui.ShowSeedActivity"
+            android:label="@string/title_activity_show_seed"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="io.nebl.wallet.android.ui.SettingsActivity" />
+        </activity>
+        <activity
+            android:name="io.nebl.wallet.android.ui.TradeActivity"
+            android:label="@string/title_activity_trade"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="io.nebl.wallet.android.ui.WalletActivity" />
+        </activity>
+        <activity
+            android:name="io.nebl.wallet.android.ui.ExchangeHistoryActivity"
+            android:label="@string/title_activity_exchange_history"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="io.nebl.wallet.android.ui.TradeActivity" />
+        </activity>
+        <activity
+            android:name="io.nebl.wallet.android.ui.TradeStatusActivity"
+            android:label="@string/title_activity_exchange_status"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="io.nebl.wallet.android.ui.SignVerifyMessageActivity"
+            android:label="@string/title_activity_sign_verify_message"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="io.nebl.wallet.android.ui.AccountDetailsActivity"
+            android:label="@string/title_activity_account_details"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="io.nebl.wallet.android.ui.SweepWalletActivity"
+            android:label="@string/title_activity_sweep_wallet"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="io.nebl.wallet.android.ui.FeesSettingsActivity"
+            android:label="@string/title_activity_transaction_fees"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="io.nebl.wallet.android.ui.SettingsActivity" />
+        </activity>
+        <activity
+            android:name="io.nebl.wallet.android.ui.DebuggingActivity"
+            android:label="@string/title_activity_debugging"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="io.nebl.wallet.android.ui.SettingsActivity" />
+        </activity>
+
+        <provider
+            android:name="io.nebl.wallet.android.ExchangeRatesProvider"
+            android:authorities="io.nebl.wallet.android.exchange_rates"
+            android:exported="false" />
+        <provider
+            android:name="io.nebl.wallet.android.AddressBookProvider"
+            android:authorities="io.nebl.wallet.android.address_book"
+            android:exported="false" />
+        <provider
+            android:name=".ExchangeHistoryProvider"
+            android:authorities="io.nebl.wallet.android.exchange_history"
+            android:exported="false" />
+
+        <service
+            android:name="io.nebl.wallet.android.service.CoinServiceImpl"
+            android:exported="false" />
+    </application>
+
+</manifest>

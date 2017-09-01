@@ -69,7 +69,7 @@
     <string name="test_wallet">ウォレットをテストする</string>
     <!-- Intro -->
     <string name="incompatible_device_warning_title">互換性のない端末</string>
-    <string name="incompatible_device_warning_message">この端末はソフトウェアもしくはハードウェアのバグにより、いくつかの暗号機能を実行できません。\nこれは端末の製造元によるアップデートにより解決できるかもしれません。\n\n何かご質問があれば support@coinomi.com までお問い合わせください。</string>
+    <string name="incompatible_device_warning_message">この端末はソフトウェアもしくはハードウェアのバグにより、いくつかの暗号機能を実行できません。\nこれは端末の製造元によるアップデートにより解決できるかもしれません。\n\n何かご質問があれば info@nebl.io までお問い合わせください。</string>
     <!-- Recovery fragment -->
     <string name="seed_info">これはウォレットの秘密鍵を生成するのに利用される<i>復元フレーズ</i>です。紙に書きとめたうえで、紙幣と同様に安全な場所に保管をしておいてください。この復元フレーズを知ることができる人は誰でもウォレットの残高にアクセスできます。復元フレーズを紛失してしまった場合には、ウォレットの復旧はできなくなります。</string>
     <string name="seed_title">復元フレーズ</string>
@@ -171,7 +171,7 @@
     <!-- About Activity -->
     <string name="title_activity_about">Neblioについて</string>
     <string name="app_name_long">Neblio for Android</string>
-    <string name="about_licence">オープンソース・プロジェクト\nhttps://github.com/Coinomi/coinomi-android\nソースコードはGNU General Public License 3のもとでライセンスされています</string>
+    <string name="about_licence">オープンソース・プロジェクト\nhttps://github.com/NeblioTeam/neblio-android\nソースコードはGNU General Public License 3のもとでライセンスされています</string>
     <string name="about_credits_nubits">サーバのインフラはNuBits - 世界初の安定したデジタル通貨 - の寄付により成り立っています\nhttps://nubits.com/</string>
     <string name="about_credits_translations">翻訳提供者:</string>
     <string name="about_credits_bitcoinj">Bitcoinjライブラリを使用しています\nhttp://bitcoinj.github.io/</string>

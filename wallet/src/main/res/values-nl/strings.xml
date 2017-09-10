@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_scan_qr_code">Scannen</string>
+    <string name="action_share">Delen</string>
+    <string name="action_copy">Kopieëren</string>
+    <string name="action_edit_label">Label wijzigen</string>
+    <string name="action_empty_wallet">Gebruik uw volledige saldo</string>
+    <string name="action_sweep_wallet">Sweep portemonnee</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="action_support">Contact opnemen met Support</string>
+    <string name="action_about">Over</string>
+    <string name="action_refresh">Verversen</string>
+    <string name="action_sign_verify_message">Teken/verifieer bericht</string>
+    <string name="action_account_details">Account details</string>
+    <string name="action_exchange_history">Exchange geschiedenis</string>	
+    <string name="action_new_address">Nieuw adres</string>
+    <string name="action_swap_coins">Verwissel tokens</string>
+    <string name="action_delete">Verwijderen</string>
+    <string name="action_change_address_type">Verander adres type</string>
+    <!-- Errors -->
+    <string name="error_generic">Er is een fout opgetreden bij het uitvoeren van de taak</string>
+    <string name="error_could_not_read_wallet">Kan portemonnee niet lezen</string>
+    <string name="error_camera">Kon geen toegang krijgen tot de camera</string>	NF
+    <!-- Generic items -->
+    <string name="button_ok">Oké</string>
+    <string name="button_next">Volgende</string>
+    <string name="button_finish">Voltooien</string>
+    <string name="button_return">Vorige</string>
+    <string name="button_confirm">Bevestigen</string>
+    <string name="button_cancel">Annuleren</string>
+    <string name="button_dismiss">Ongedaan maken</string>
+    <string name="button_delete">Verwijderen</string>
+    <string name="button_add">Toevoegen</string>
+    <string name="button_save">Opslaan</string>
+    <string name="button_remove">Verwijderen</string>
+    <string name="button_edit">Wijzigen</string>
+    <string name="button_send">Versturen</string>
+    <string name="button_sign">Ondertekenen</string>
+    <string name="button_verify">Verifiëren</string>
+    <string name="button_skip">Overslaan</string>
+    <string name="button_retry">Opnieuw proberen</string>
+    <string name="button_download">Download</string>
+    <string name="button_agree">Akkoord</string>
+    <string name="button_disagree">Weigeren</string>
+    <string name="button_add_coins">+ Tokens</string>
+    <string name="button_execute">Uitvoeren</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="scan_qr_code">Scan QR code</string>
+    <string name="erase_address">Adres verwijderen</string>
+    <string name="copied_to_clipboard">Gekopieerd naar klembord</string>
+    <string name="wallet_title_request">Ontvangen</string>
+    <string name="wallet_title_balance">Saldo</string>
+    <string name="wallet_title_send">Versturen</string>
+    <string name="wallet_locked_message">Portemonnee is vergrendeld</string>
+    <string name="wallet_is_not_locked_message">Portemonnee is ontgrendeld</string>
+    <string name="unlock_wallet_title">Ontgrendel uw portemonnee</string>
+    <!-- &#8230; is the ... character -->
+    <string name="unlocking_wallet_working">Uw portemonnee wordt ontgrendeld&#8230;</string>
+    <string name="unlocking_wallet_error_title">Kan portemonnee niet ontgrendelen</string>
+    <string name="unlocking_wallet_error_detail">Controleer alstublieft uw wachtwoord en zorg ervoor dat u het juiste wachtwoord gebruikt. Indien het probleem aanhoudt, kunt u uw portemonnee proberen te herstellen door middel van uw herstelzin.</string>
+    <string name="powered_by">Powered by</string>
+    <!-- Nav drawer -->
+    <string name="navigation_drawer_open">Open navigatiepaneel</string>
+    <string name="navigation_drawer_close">Suit navigatiepaneel</string>
+    <string name="navigation_drawer_services">Services</string>
+    <string name="navigation_drawer_wallet">Portemonnee</string>
+    <!-- SendOutput widget -->
+    <string name="fee">Transactiekosten</string>
+    <string name="send">Versturen</string>
+    <string name="trade">Exchange</string>
+    <string name="receive">Ontvangen</string>
+    <!-- Welcome fragment -->
+    <string name="welcome_text">Welkom bij Neblio</string>
+    <string name="create_wallet">Maak een nieuwe portemonnee aan</string>
+    <string name="restore_wallet">Herstel een portemonnee</string>
+    <string name="test_wallet">Test portemonnee</string>
+    <!-- Intro -->
+    <string name="override_wallet_warning_title">Huidige portemonnee overschrijven?</string>
+    <string name="override_new_wallet_warning_message">Indien u een nieuwe portemonnee aanmaakt verliest u uw huidige portemonnee, tenzij u een kopie heeft gemaakt van uw <i>herstelzin</i>.</string>
+    <string name="override_restore_wallet_warning_message">Indien u een portemonnee herstelt verliest u uw huidige portemonnee, tenzij u een kopie heeft gemaakt van uw <i>herstelzin</i>.</string>
+    <string name="incompatible_device_warning_title">Uw apparaat wordt niet ondersteund</string>
+    <string name="incompatible_device_warning_message">Dit toestel kan bepaalde cryptografische functies niet uitvoeren door ofwel software of hardware bugs.\n Dit kan mogelijk worden opgelost door een update van de fabrikant van uw toestel.\n\nBij vragen kunt u contact met ons opnemen via: info@nebl.io</string>
+    <!-- Recovery fragment -->
+    <string name="seed_info">Dit is uw <i>herstelzin</i>, welke wordt gebruikt om uw portemonnee sleutels te genereren. Maak alstublieft een kopie van uw herstelzin en berg het op een veilige plek op, zoals u ook met papiergeld zou doen. Iedereen die toegang heeft tot uw herstelzin heeft toegang tot uw portemonnee en saldo.\nIndien u uw herstelzin kwijtraakt kan uw portemonnee niet meer worden hersteld.</string>
+    <string name="seed_title">Uw herstelzin</string>
+    <string name="seed_regenerate_title">Raak aan om een nieuwe herstelzin te genereren</string>
+    <string name="backed_up_seed">Ik heb mijn herstelzin op een veilige plek opgeslagen</string>
+    <!-- Restore fragment -->
+    <string name="restore_info">Voer alstublieft uw herstelzin in:</string>
+    <string name="restore_seed_protected">Gebruik een BIP39 wachtwoord</string>
+    <string name="restore_skip_title">Sla verificatie over</string>
+    <string name="restore_skip_info1">Zorg er alstublieft voor dat uw herstelzin gelijk is aan:</string>
+    <string name="restore_skip_info2">Het is aangeraden om de verificatie niet over te slaan zodat eventuele spelfouten kunnen worden gedetecteerd.</string>
+    <string name="restore_error_checksum">Uw herstelzin is ongeldig. Controleer of bepaalde woorden onjuist gespeld zijn.</string>
+    <string name="restore_error_words">Herstelzin bevat onherkenbare woorden.</string>
+    <string name="restore_error_mismatch">De zojuist ingevoerde herstelzin komt niet overeen met uw herstelzin.</string>
+    <string name="restore_error">Kan uw herstelzin niet verifiëren. %1$s</string>
+    <string name="extra_entropy">Extra entropy</string>
+    <!-- Wallet activity -->
+    <string name="test_wallet_message">Dit is een test portemonnee waarin u testnet Bitcoins, Litecoins en Dogecoins kan versturen en ontvangen.\n\nIndien u uw portemonnee met echt geld wilt gebruiken kunt u gaan naar: <b>Instellingen &gt; Portemonnee herstellen &gt; Maak een nieuwe portemonnee aan</b>.</string>
+    <string name="wallet_update_title">Nieuwe versie beschikbaar</string>
+    <string name="wallet_update_message">Er is een nieuwe versie van Neblio beschikbaar met nieuwe functies en bugfixes.</string>
+    <string name="pay_with">Versturen met</string>
+    <string name="exchange_and_pay_title">Wissel en verstuur</string>
+    <!-- PayToDialog-->
+    <!-- Ambiguous address means that the wallet cannot deduce the correct address coin type -->
+    <string name="ambiguous_address_title">Onduidelijk adres</string>
+    <string name="ambiguous_address_message">Selecteer alstublieft de juiste cryptovaluta.</string>
+    <!-- Balance fragment -->
+    <string name="wallet_transactions_coinbase">Gemined</string>
+    <string name="history_empty">Nog geen tokens ontvangen!\n\nU kunt tokens bemachtigen door ze aan te schaffen via een exchange, door andere valuta te verhandelen of door goederen of services te verkopen.</string>
+    <string name="sent_to">Verzonden naar</string>
+    <string name="received_with">Ontvangen met</string>
+    <string name="received_from">Ontvangen van</string>
+    <string name="get_tx_info_error">Kon geen transactie informatie ophalen</string>
+    <string name="disconnected_label">Verversen&#8230;</string>
+    <string name="no_wallet_pocket_selected">Geen rekening geselecteerd</string>
+    <string name="get_tx_broadcast_error">Transactie broadcast error</string>
+    <!-- Receive fragment -->
+    <string name="receive_address_label">Mijn adres</string>
+    <string name="create_new_address">Een nieuw adres creëren?</string>
+    <string name="create_new_address_name">Naam (optioneel)</string>
+    <string name="view_previous_addresses">Vorige adressen</string>
+    <string name="too_many_unused_addresses">Teveel ongebruikte adressen, probeer een van de bestaande adressen te gebruiken voordat u een nieuw adres aanmaakt.</string>
+    <!-- Send Activity -->
+    <string name="send_coins_activity_title">Verstuur tokens</string>
+    <!-- Send fragment -->
+    <string name="send_coins_fragment_receiving_address_label">Betalen aan</string>
+    <string name="send_coins_fragment_receiving_address_tip">Naam of adres</string>
+    <string name="send_coins_fragment_receiving_address_error">Ongeldig Bitcoin adres!</string>
+    <string name="send_coins_fragment_amount_label">Bedrag te betalen</string>
+    <string name="send_coins_fragment_button_send">Versturen</string>
+    <string name="send_coins_fragment_button_back">Terug</string>
+    <string name="send_coins_failed_msg">Mislukt!</string>
+    <string name="send_coins_error_network">Kon niet met het netwerk verbinden</string>
+    <string name="send_coins_error_dust">Het te verzenden bedrag is onder de minimale hoeveelheid en zal daarom worden geweigerd door het netwerk.</string>
+    <!-- Here the %1$s is a detailed error message -->
+    <string name="send_coins_error">Kon de tokens niet versturen: %1$s</string>
+    <string name="pay_to_label">Betalen aan</string>
+    <string name="amount_to_send_label">Bedrag</string>
+    <string name="scan_error">Er is een probleem opgetreden tijdens het scannen van: %1$s</string>
+    <!-- Here the \"%1$s\" is the "coin name"-->
+    <string name="unsupported_coin">Cryptovaluta \"%1$s\" wordt niet ondersteund.</string>
+    <string name="address_error">Het opgegeven adres is ongeldig.</string>
+    <string name="amount_error">Het opgegeven bedrag is ongeldig.</string>
+    <string name="amount_error_empty">Voer alstublieft een bedrag in</string>
+    <string name="amount_error_negative">Kan geen negatief bedrag versturen</string>
+    <!-- %1$s is the amount e.g. ... is at least 0.00001 BTC-->
+    <string name="amount_error_too_small">Het minimumbedrag is tenminste %1$s</string>
+    <string name="amount_error_not_enough_money_plain">Onvoldoende saldo</string>
+    <!-- %1$s is the wallet balance e.g. ... current balance is 3.1415 BTC-->
+    <string name="amount_error_not_enough_money">Onvoldoende saldo, huidige balans is %1$s</string>
+    <string name="amount_warn_fees_apply">Iets minder dan het opgegeven bedrag zal worden verstuurd in verband met transactiekosten.</string>
+    <!-- Set Password fragment -->
+    <string name="set_password_info">Stel een wachtwoord in om uw portemonnee te beveiligen voor alledaags gebruik.</string>
+    <string name="set_bip39_passphrase">Voer uw BIP39 wachtwoord in</string>
+    <string name="set_password1">Voer uw wachtwoord in</string>
+    <string name="set_password2">Voer uw wachtwoord opnieuw in</string>
+    <!-- Here the \"%1$s\" is the "password"-->
+    <string name="password_too_common_error">Wachtwoord \"%1$s\" is te veelvoorkomend om veilig te worden gebruikt.</string>
+    <!-- The %1$d is a number of characters, usually 10 characters -->
+    <string name="password_too_short_error">Wachtwoord is te kort, minimaal %1$d tekens.</string>
+    <string name="passwords_mismatch">Wachtwoorden komen niet overeen</string>
+    <string name="password_error">Kan niet verdergaan, er zijn fouten gedetecteerd in het wachtwoord.</string>
+    <string name="password_skip_warn">Indien u geen wachtwoord instelt, kan men zonder authorisatie toegang krijgen tot uw portemonnee.</string>
+    <string name="password_wallet_recovery">Om uw portemonnee te herstellen, dient u hetzelfde BIP39 wachtwoord in te voeren als dat u gebruikte bij het aanmaken van de beveiligde herstelzin.\nIndien u een ander wachtwoord invoert, zal er een nieuwe portemonnee worden aangemaakt.</string>
+    <!-- FinalizeWalletRestorationFragment -->
+    <string name="wallet_restoration">Een moment geduld alstublieft terwijl uw portemonnee wordt hersteld/aangemaakt.</string>
+    <string name="wallet_restoration_master_key">Master key wordt aangemaakt</string>
+    <!-- The %1$s is a coin name e.g. Creating key for Bitcoin -->
+    <string name="wallet_restoration_coin">Wachtwoord gecreëerd voor %1$s</string>
+    <!-- The %1$s is an error message -->
+    <string name="wallet_restoration_error">Kon uw portemonnee niet herstellen.\n\n%1$s</string>
+    <!-- PasswordConfirmationFragment -->
+    <string name="enter_password">Voer uw wachtwoord in</string>
+    <!-- SignTransactionFragment -->
+    <!-- &#8230; is the ... character -->
+    <string name="contacting_exchange">Contacting exchange&#8230;</string>
+    <string name="preparing_transaction">Een moment geduld alstublieft terwijl u transactie wordt voorbereid en verstuurd.</string>
+    <string name="no_such_pocket_error">Er is een probleem opgetreden tijdens het toegang krijgen tot deze rekening. Indien het probleem blijft bestaan, probeer uw portemonnee te herstellen met de herstelzin.</string>
+    <string name="password_failed">Het ingevoerde wachtwoord is ongeldig.</string>
+    <!-- &#8230; is the ... character -->
+    <string name="sending_msg">Versturen&#8230;</string>
+    <string name="sent_msg">Verstuurd! Een moment geduld alstublieft terwijl de transactie wordt bevestigd.</string>
+    <string name="tx_already_broadcast">Het bedrag is al verstuurd</string>
+    <string name="trade_expired">Exchange verlopen</string>
+    <!-- %1$s is the time remaining e.g. ... in the next 8 minutes 35 seconds-->
+    <string name="tx_confirm_timer_message">Bevestig alstublieft de transactie in de volgende %1$s</string>
+    <plurals name="tx_confirm_timer_minute">
+        <item quantity="one">%s minuut</item>
+        <item quantity="other">%s minuten</item>
+    </plurals>
+    <plurals name="tx_confirm_timer_second">
+        <item quantity="one">%d seconde</item>
+        <item quantity="other">%d seconden</item>
+    </plurals>
+    <!-- About Activity -->
+    <string name="title_activity_about">Over Neblio</string>
+    <string name="app_name_long">Neblio voor Android</string>
+    <string name="about_licence">Een open source project\nhttps://github.com/NeblioTeam/neblio-android</string>
+    <string name="about_credits_translations">Vertalingen door:</string>
+    <string name="about_credits_bitcoinj">Maakt gebruik van Bitcoinj bibliotheek\nhttp://bitcoinj.github.io/</string>
+    <string name="about_credits_electrum">Maak gebruik van Electrum server software\nhttps://electrum.org/</string>
+    <string name="about_credits_schildbach">Beïnvloed door Andreas Schildbach\nhttps://github.com/schildbach/bitcoin-wallet/</string>
+    <string name="about_credits_zxing">QR-code functionaliteit door ZXing\nhttps://github.com/zxing/zxing</string>
+    <string name="about_credits_coinomi">Gebaseerd op de laatste Open Source versie van Coinomi\nhttps://github.com/Coinomi/coinomi-android</string>
+    <string name="about_credits_font_icons">Font-icons door Daniel Bruce\nhttp://www.entypo.com</string>
+    <!-- Add Coins -->
+    <string name="title_activity_add_coins">Tokens toevoegen</string>
+    <!-- %1$s is the coin name e.g. ... create a Bitcoin account ... -->
+    <string name="password_add_coin">U staat op het punt om een %1$s rekening aan te maken in uw portemonnee.</string>
+    <!-- %1$s is the coin name e.g. Add Bitcoin? -->
+    <string name="adding_coin_confirmation_title">%1$s toevoegen?</string>
+    <!-- %1$s is the coin name e.g. ... a new Bitcoin account -->
+    <string name="adding_coin_working">Een moment geduld alstublieft terwijl een nieuwe %1$s rekening wordt aangemaakt</string>
+    <!-- %1$s is the coin name and %2$s is and error message e.g. Error adding Bitcoin: some error message -->
+    <string name="add_coin_error">Er is een fout opgetreden bij toevoegen van %1$s: %2$s</string>
+    <!-- %1$s is the coin name e.g. Bitcoin already added -->
+    <string name="coin_already_added_title">%1$s al toegevoegd</string>
+    <string name="coin_already_added">Additionele rekeningen nog niet ondersteund</string>
+    <!-- Transaction amount visualizer -->
+    <!-- Internal transfer means that the wallet send money to itself.-->
+    <string name="internal_transfer">Interne transactie</string>
+    <!-- Transaction Details -->
+    <string name="title_activity_transaction_details">Transactie details</string>
+    <string name="sent">Verstuurd</string>
+    <string name="received">Ontvangen</string>
+    <!-- Status of a transaction, could be pending for confirmations or confirmed -->
+    <string name="status_label">Status</string>
+    <string name="date_label">Datum</string>
+    <string name="transaction_id_label">Transactie id</string>
+    <string name="view_at_a_blockchain_explorer_link">Bekijk op blockchain explorer</string>
+    <!-- %d is the number of confirmations -->
+    <plurals name="status_building">
+        <item quantity="one">%d bevestiging</item>
+        <item quantity="other">%d bevestigingen</item>
+    </plurals>
+    <string name="status_pending">Wachten op transactiebevestiging</string>
+    <string name="status_unknown">Transactie status onbekend</string>
+    <!-- Exchange Rates -->
+    <string name="title_activity_exchange_rates">Wisselkoersen</string>
+    <!-- %1$s is the symbol of a fiat currency e.g. Set EUR as a ... -->
+    <string name="set_local_currency">Stel %1$s in als een lokale valuta</string>
+    <string name="exchange_rates_loading">Wisselkoersen laden</string>
+    <string name="exchange_rates_load_error">Kon de wisselkoersen niet laden</string>
+    <string name="exchange_rates_empty_search">Kon de wisselkoers niet vinden</string>
+    <!-- Select Coins -->
+    <string name="select_coins">Selecteer de tokens die u wenst te gebruiken met uw portemonnee. U kunt later nog meer toevoegen.</string>
+    <!-- Previous Addresses -->
+    <string name="title_activity_previous_addresses">Mijn vorige adressen</string>
+    <string name="previous_addresses_used">Gebruikt adres</string>
+    <string name="previous_addresses_unused">Ongebruikt adres</string>
+    <!-- Edit Address Book Entry -->
+    <string name="edit_address_book_entry_dialog_title_add">Adres toevoegen</string>
+    <string name="edit_address_book_entry_dialog_title_edit">Adres wijzigen</string>
+    <string name="edit_address_book_entry_dialog_address_label">Adres</string>
+    <string name="edit_address_book_entry_dialog_label_label">Naam</string>
+    <!-- Edit Account -->
+    <string name="edit_account_title">Rekening wijzigen</string>
+    <string name="edit_account_description_label">Beschrijving</string>
+    <!-- %1$s is the name of the account e.g. Remove account Bitcoin? -->
+    <string name="edit_account_delete_title">%1$s rekening verwijderen?</string>
+    <string name="edit_account_delete_description">Dit verwijdert de rekening van de portemonnee, maar u kunt deze later weer toevoegen en de tokens herstellen.</string>
+    <!-- Settings -->
+    <string name="title_activity_settings">Instellingen</string>
+    <string name="pref_title_restore_wallet">Portemonnee herstellen</string>
+    <string name="pref_title_exchange_rates">Wisselkoersen</string>
+    <string name="pref_title_manual_receiving_addresses">Handmatige ontvangadressen</string>
+    <string name="pref_summary_manual_receiving_addresses">Maak niet automatisch een nieuw adres aan voor elke transactie</string>
+    <!-- Show Seed -->
+    <string name="title_activity_show_seed">Toon herstelzin</string>
+    <string name="seed_not_available_title">Geen herstelzin gevonden</string>
+    <string name="seed_not_available">Uw herstelzin is niet opgeslagen op dit apparaat.\nProbeer uw portemonnee te herstellen om dit op te lossen.</string>
+    <!-- &#8230; is the ... character -->
+    <string name="seed_working">Een moment geduld alstublieft&#8230;</string>
+    <string name="seed_password_protected">Deze herstelzin is beveiligd met een BIP39 wachtwoord</string>
+    <!-- Wallet locked -->
+    <string name="touch_to_decrypt_wallet">Raak aan om te ontgrendelen</string>
+    <!-- Debugging -->
+    <string name="debugging_info">You can use a collection of tools to debug various issues with your wallet.</string>
+    <string name="debugging_test_wallet_password">Wallet unlocking tests</string>
+    <string name="debugging_test_wallet_password_results">Unlocked wallet: %1$s\n\nFingerprints\nInput: %2$s\nKey: %3$s</string>
+    <!-- Overview -->
+    <string name="title_activity_overview">Overzicht</string>
+    <!-- Exchange -->
+    <string name="title_activity_trade">Exchange</string>
+    <string name="trade_info">Selecteer de tokens die u wenst in te wisselen.\nDe geconverteerde tokens zullen automatisch worden toegevoegd aan uw portemonnee.</string>
+    <string name="trade_info_rates">De gegeven wisselkoers is inclusief ShapeShift.io transactiekosten</string>
+    <string name="trade_from_coin_label">Exchange</string>
+    <string name="trade_to_coin_label">Ontvangen</string>
+    <string name="trade_warn_no_account_found">U wordt gevraagd om een %1$s portemonnee toe te voegen</string>
+    <string name="trade_warn_no_connection_title">Geen verbinding</string>
+    <string name="trade_warn_no_connection_message">Er is een internetverbinding vereist om tokens in te wisselen.</string>
+    <string name="trade_error">Exchange error</string>
+    <string name="trade_error_no_supported_source_accounts">Geen ondersteunende rekeningen gevonden</string>
+    <string name="trade_error_service_not_available">Service tijdelijk niet beschikbaar, probeer het later opnieuw</string>
+    <string name="trade_error_market_info">Service tijdelijk niet beschikbaar.\nGeen informatie over %1$s - %2$s paar</string>
+    <string name="trade_error_sign_tx_message">Er is een probleem opgetreden tijdens het ondertekenen en uitzenden van de transactie.\n\nTechnische details:\n\n<b>%1$s</b></string>
+    <string name="trade_error_max_limit">Het opgegeven bedrag overschrijdt de limiet van %1$s. Gebruik alstublieft een kleiner bedrag.</string>
+    <string name="trade_error_min_limit">Het minimumbedrag is tenminste %1$s</string>
+    <!-- Exchange Status -->
+    <string name="title_activity_exchange_status">Exchange status</string>
+    <string name="trade_status_message">Uw order zal worden afgerond in een ogenblik. U kan dit scherm verlaten zonder de wisseling te verstoren.</string>
+    <string name="trade_status_complete_message">Uw order is succesvol afgerond.</string>
+    <string name="trade_status_label">Status</string>
+    <!-- &#8230; is the ... character -->
+    <string name="trade_status_waiting_deposit">Wachten op storting&#8230;</string>
+    <string name="trade_status_received_deposit">Storting ontvangen van %1$s</string>
+    <!-- &#8230; is the ... character -->
+    <string name="trade_status_waiting_trade">Wachten op uitwisseling&#8230;</string>
+    <string name="trade_status_complete_detail">Uitwisseling compleet, %1$s verzonden</string>
+    <string name="trade_status_complete">Uitwisseling compleet</string>
+    <string name="trade_status_view_transaction">Bekijk transactie</string>
+    <string name="trade_status_email_receipt">Email factuur</string>
+    <!-- %1$s is an error message -->
+    <string name="trade_status_failed_detail">Uitwisseling mislukt: %1$s</string>
+    <string name="trade_status_failed">Uitwisseling mislukt</string>
+    <string name="trade_status_delete_message">Verwijderen uit geschiedenis?</string>
+    <string name="trade_status_tx_not_available">Transactie niet gevonden, probeer het later opnieuw</string>
+    <!-- Email receipt dialog -->
+    <string name="email_receipt_title">Email factuur</string>
+    <string name="email_receipt_message">Ontvang een email voor deze transactie</string>
+    <!-- Exchange History -->
+    <string name="title_activity_exchange_history">Uitwisselingsgeschiedenis</string>
+    <string name="exchange_history_empty">Geen uitwisselingen bekend</string>
+    <!-- ShapeShift -->
+    <string name="about_shapeshift_title">About ShapeShift.io</string>
+    <string name="about_shapeshift_message">ShapeShift.io is an instant altcoin exchange that provides Bitcoin and altcoin conversion. The platform (available in both web and API flavors) represents the fastest, most efficient way to convert between Bitcoin and dozens of altcoins within the Bitcoin ecosystem. No account needed.</string>
+    <!-- Sign Message -->
+    <string name="title_activity_sign_verify_message">Teken/verifieer bericht</string>
+    <string name="signing_info">U kan een bericht tekenen of verifiëren door middel van een adres.</string>
+    <string name="signing_address_label">Adres ondertekenen</string>
+    <string name="address_not_found_error">Het opgegeven adres kan niet worden gevonden in deze rekening.</string>
+    <string name="message_to_sign_label">Bericht</string>
+    <string name="signature_label">Handtekening</string>
+    <string name="message_signed">Bericht ondertekend</string>
+    <string name="message_verified">Bericht geverifieerd</string>
+    <string name="message_verification_failed">Bericht verificatie mislukt</string>
+    <!-- Messages -->
+    <string name="tx_message_public">Openbaar bericht</string>
+    <string name="tx_message_private">Privébericht</string>
+    <string name="tx_message_public_add">Voeg openbaar bericht toe</string>
+    <string name="tx_message_private_add">Voeg privébericht toe</string>
+    <string name="tx_message_public_remove">Verwijder openbaar bericht</string>
+    <string name="tx_message_private_remove">Verwijder privébericht</string>
+    <string name="tx_message_from">Van</string>
+    <string name="tx_message_subject">Onderwerp</string>
+    <string name="tx_message">Bericht</string>
+    <!-- Account details -->
+    <string name="title_activity_account_details">Rekeninginformatie</string>
+    <string name="account_description_label">Beschrijving</string>
+    <string name="account_public_key_label">Public key</string>
+    <string name="account_extended_public_key_label">Extended public key</string>
+    <string name="account_public_key_warning">Indien u uw public key deelt, kan iedereen uw balans en transacties inzien.</string>
+    <string name="account_private_key_label">Private key</string>
+    <string name="account_extended_private_key_label">Extended private key</string>
+    <string name="account_private_key_warning">De private key laat u tokens verzenden vanaf dit account. Het is niet noodzakelijk om een backup te maken van deze key, aangezien deze is afgeleid van uw <i>herstelzin</i></string>
+    <!-- Support -->
+    <string name="support_message">Neem contact op met Neblio</string>
+    <!-- Sweep wallet -->
+    <!-- Sweep paper wallet means to redeem coins from a code usually printed on a paper -->
+    <string name="sweep_wallet_info">U staat op het punt om tokens over te maken van uw paper wallet naar uw Neblio portemonnee.\nIn verband met veiligheidsredenen, vermijd alstublieft het hergebruik van uw paper wallet nadat de transactie is voltooid.\n\nOndersteunde bestandsformaten: WIF, BIP38, Mini private key.</string>
+    <string name="sweep_wallet_key_title">Private key</string>
+    <string name="sweep_wallet_key_password">Private key wachtwoord</string>
+    <string name="sweep_wallet_key_hint">Type of scan uw private key</string>
+    <string name="sweep_wallet_bad_format">Kon het bestandsformaat van uw private key niet herkennen.</string>
+    <string name="sweep_wallet_bad_coin_type">De private key matcht niet met het type bestemmingsrekening.</string>
+    <string name="sweep_wallet_bad_password">Incorrect wachtwoord.</string>
+    <string name="sweep_wallet_zero_coins">De private key bevat geen saldo.</string>
+    <string name="sweep_wallet_key_wait">Een moment geduld alstublieft terwijl uw paper wallet wordt gesweeped</string>
+    <!-- &#8230; is the ... character -->
+    <string name="sweep_wallet_key_decoding">Private key decoderen&#8230;</string>
+    <!-- &#8230; is the ... character -->
+    <string name="sweep_wallet_key_loading">Balans laden&#8230;</string>
+    <!-- &#8230; is the ... character -->
+    <string name="sweep_wallet_key_signing">Transactie creëren&#8230;</string>
+    <!-- Fees settings -->
+    <string name="title_activity_transaction_fees">Transactiekosten</string>
+    <!-- Example: Bitcoin transaction fees-->
+    <string name="tx_fees_title">%1$s transactiekosten</string>
+    <!-- Example: The fee value is per kilobyte.-->
+    <string name="tx_fees_description">Tariefwaarde is %1$s.</string>
+    <string name="tx_fees_per_kilobyte">per kilobyte transactiedata</string>
+    <string name="tx_fees_per_byte">per byte transactiedata</string>
+    <string name="tx_fees_per_transaction">per transactie</string>
+
+    <!-- Terms -->
+    <string name="terms_of_service_title">Terms of service</string>
+    <!-- TODO translate to other languages -->
+
+</resources>

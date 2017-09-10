@@ -175,15 +175,12 @@
     <string name="title_activity_about">Σχετικά με το Neblio</string>
     <string name="app_name_long">CNeblio για το λειτουργικό Android</string>
     <string name="about_licence">Ένα πρόγραμμα ανοιχτού λογισμικού\nhttps://github.com/NeblioTeam/neblio-android\nΟ πηγαίος κώδικας διατίθεται βάσει της άδειας GNU General Public License 3</string>
-    <string name="about_credits_nubits">Οι κεντρικοί εξυπηρετητές είναι μια προσφορά της NuBits\nhttps://nubits.com/</string>
     <string name="about_credits_translations">Μεταφράσεις από τους:</string>
     <string name="about_credits_bitcoinj">Χρησιμοποιείται η βιβλιοθήκη Bitcoinj\nhttp://bitcoinj.github.io/</string>
     <string name="about_credits_electrum">Χρησιμοποιείται λογισμικό του εξυπηρετητή Electrum\nhttps://electrum.org/</string>
     <string name="about_credits_schildbach">Επηρεασμένο από τη δουλειά του Andreas Schildbach \nhttps://github.com/schildbach/bitcoin-wallet/</string>
     <string name="about_credits_zxing">Λειτουργία QR-code από τον ZXing\nhttps://github.com/zxing/zxing</string>
-    <string name="about_credits_crypto_icons">Εικονίδια κρυπτονομισμάτων από τον Chris Shepherd\nhttps://github.com/shphrd/crypto-icons</string>
     <string name="about_credits_font_icons">Εικονίδια φόντων από τον Daniel Bruce\nhttp://www.entypo.com</string>
-    <string name="about_credits_exchange_rates">Πάροχοι νομισματικών ισοτιμιών\nhttp://www.cryptocoincharts.info/\nhttps://bitcoinaverage.com/</string>
     <!-- Add Coins -->
     <string name="title_activity_add_coins">Προσθήκη νομισμάτων</string>
     <string name="password_add_coin">Είστε ένα βήμα μακριά από τη δημιουργία ενός %1$s λογαριασμού στο πορτοφόλι σας.</string>

@@ -174,15 +174,12 @@
     <string name="title_activity_about">Acerca de Neblio</string>
     <string name="app_name_long">Neblio para Android</string>
     <string name="about_licence">Un proyecto de código abierto\nhttps://github.com/NeblioTeam/neblio-android\nCódigo fuente bajo licencia GNU General Public License 3</string>
-    <string name="about_credits_nubits">Infraestructura de servidor donado por NuBits - Primera moneda digital estable del mundo\nhttps://nubits.com/</string>
     <string name="about_credits_translations">Traducciones proporcionadas por:</string>
     <string name="about_credits_bitcoinj">Utiliza la biblioteca Bitcoinj\nhttp://bitcoinj.github.io/</string>
     <string name="about_credits_electrum">Utiliza software de servidor Electrum\nhttps://electrum.org/</string>
     <string name="about_credits_schildbach">Influenciado por Andreas Schildbach\nhttps://github.com/schildbach/bitcoin-wallet/</string>
     <string name="about_credits_zxing">Funcionalidad de código QR por ZXing\nhttps://github.com/zxing/zxing</string>
-    <string name="about_credits_crypto_icons">Crypto-iconos de Chris Shepherd\nhttps://github.com/shphrd/crypto-icons</string>
     <string name="about_credits_font_icons">Fondos-Iconos por Daniel Bruce\nhttp://www.entypo.com</string>
-    <string name="about_credits_exchange_rates">Los precios de cambio proporcionados por\nhttp://www.cryptocoincharts.info/\nhttps://bitcoinaverage.com/</string>
     <!-- Add Coins -->
     <string name="title_activity_add_coins">Añadir monedas</string>
     <string name="password_add_coin">Usted está a punto de crear una cuenta de %1$s en su billetera.</string>

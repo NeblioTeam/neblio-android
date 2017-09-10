@@ -178,15 +178,12 @@
     <string name="title_activity_about">О Neblio</string>
     <string name="app_name_long">Neblio для Android</string>
     <string name="about_licence">Программа с открытым исходным кодом\nhttps://github.com/NeblioTeam/neblio-android\nИсходный код открыт на основе лицензии GNU General Public License 3</string>
-    <string name="about_credits_nubits">Инфраструктура серверов предоставлена NuBits - Первой Всемирной Стабильной Цифровой Валютой \nhttps://nubits.com/</string>
     <string name="about_credits_translations">Переводы выполнили:</string>
     <string name="about_credits_bitcoinj">Используется библиотека Bitcoinj\nhttp://bitcoinj.github.io/</string>
     <string name="about_credits_electrum">Используется серверное ПО от Electrum\nhttps://electrum.org/</string>
     <string name="about_credits_schildbach">Под влиянием работы Andreas Schildbach\nhttps://github.com/schildbach/bitcoin-wallet/</string>
     <string name="about_credits_zxing">QR-код сканер от ZXing\nhttps://github.com/zxing/zxing</string>
-    <string name="about_credits_crypto_icons">Иконки криптовалюты от Chris Shepherd\nhttps://github.com/shphrd/crypto-icons</string>
     <string name="about_credits_font_icons">Пиктограммы от Daniel Bruce\nhttp://www.entypo.com</string>
-    <string name="about_credits_exchange_rates">Курсы валют предоставлены \nhttp://www.cryptocoincharts.info/\nhttps://bitcoinaverage.com/</string>
     <!-- Add Coins -->
     <string name="title_activity_add_coins">Добавить монеты</string>
     <string name="password_add_coin">Вы собираетесь создать %1$s счёт в Вашем кошельке.</string>

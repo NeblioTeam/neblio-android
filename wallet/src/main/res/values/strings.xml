@@ -212,7 +212,7 @@
     <string name="about_credits_zxing">QR-code functionality by ZXing\nhttps://github.com/zxing/zxing</string>
     <string name="about_credits_coinomi">Based on the last Open Source version of Coinomi\nhttps://github.com/Coinomi/coinomi-android</string>
     <string name="about_credits_font_icons">Font-icons by Daniel Bruce\nhttp://www.entypo.com</string>
-    <string name="about_coinomi_copyright" translatable="false">\u00A9 2017 Neblio</string>
+    <string name="about_coinomi_copyright" translatable="false">\u00A9 2018 Neblio</string>
     <!-- Add Coins -->
     <string name="title_activity_add_coins">Add Tokens</string>
     <!-- %1$s is the coin name e.g. ... create a Bitcoin account ... -->

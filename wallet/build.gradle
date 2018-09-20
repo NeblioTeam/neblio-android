@@ -17,9 +17,9 @@ android {
     defaultConfig {
         applicationId "io.nebl.wallet.android"
         minSdkVersion 10
-        targetSdkVersion 23
-        versionCode 6
-        versionName "v0.3"
+        targetSdkVersion 26
+        versionCode 7
+        versionName "v0.4"
     }
 
     buildTypes {

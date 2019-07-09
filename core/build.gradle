@@ -9,21 +9,21 @@ configurations {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    compile 'com.google.guava:guava:16.0.1'
-    compile 'com.google.code.findbugs:jsr305:2.0.1'
-    compile 'com.madgag.spongycastle:core:1.51.0.0'
+    implementation 'com.google.guava:guava:16.0.1'
+    implementation 'com.google.code.findbugs:jsr305:2.0.1'
+    implementation 'com.madgag.spongycastle:core:1.51.0.0'
 
-    compile 'com.lambdaworks:scrypt:1.4.0'
+    implementation 'com.lambdaworks:scrypt:1.4.0'
 
-    compile 'com.google.protobuf:protobuf-java:2.5.0'
-    compile 'org.slf4j:slf4j-jdk14:1.7.6'
+    implementation 'com.google.protobuf:protobuf-java:2.5.0'
+    implementation 'org.slf4j:slf4j-jdk14:1.7.6'
 
 //    compile 'org.json:json:20140107'
-    compile 'org.json:json:20080701'
+    implementation 'org.json:json:20080701'
 
-    compile 'com.squareup.okhttp:okhttp:2.3.0'
+    implementation 'com.squareup.okhttp:okhttp:2.3.0'
 
     testCompile 'junit:junit:4.11'
     testCompile 'org.mockito:mockito-all:1.9.5'
@@ -40,7 +40,7 @@ sourceSets {
 // add the unitTest task
 task unitTest(type:Test, dependsOn: assemble) {
     description = "run unit tests"
-    testClassesDir = project.sourceSets.unitTest.output.classesDir
+    testClassesDirs = project.sourceSets.unitTest.output.classesDirs
     classpath = project.sourceSets.unitTest.runtimeClasspath
 }
 

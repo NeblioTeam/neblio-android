@@ -12,14 +12,14 @@ keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 
 android {
     compileSdkVersion 23
-    buildToolsVersion '25.0.0'
+    //buildToolsVersion '25.0.0'
 
     defaultConfig {
         applicationId "io.nebl.wallet.android"
         minSdkVersion 10
-        targetSdkVersion 26
-        versionCode 7
-        versionName "v0.4"
+        targetSdkVersion 28
+        versionCode 10
+        versionName "v0.6"
     }
 
     buildTypes {
@@ -49,6 +49,12 @@ android {
         disable 'MissingTranslation'
     }
 
+    packagingOptions {
+        exclude 'lib/x86_64/darwin/libscrypt.dylib'
+        exclude 'lib/x86_64/freebsd/libscrypt.so'
+        exclude 'lib/x86_64/linux/libscrypt.so'
+    }
+
 }
 
 repositories {
@@ -65,26 +71,29 @@ repositories {
 //}
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile fileTree(dir: '../core/libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: '../core/libs', include: ['*.jar'])
     // Testing
 //    androidTestCompile 'junit:junit:4.11'
 //    androidTestCompile 'org.robolectric:robolectric:2.3'
 //    androidTestCompile 'com.squareup:fest-android:1.0.+'
-    compile project(':core')
-    compile 'com.android.support:gridlayout-v7:23.3.0'
-    compile 'com.android.support:support-v4:23.3.0'
-    compile 'com.android.support:appcompat-v7:23.3.0'
+    implementation project(':core')
+    implementation 'com.android.support:gridlayout-v7:23.3.0'
+    implementation 'com.android.support:support-v4:23.3.0'
+    implementation 'com.android.support:appcompat-v7:23.3.0'
 //    compile 'com.android.support:preference-v7:23.2.1'
-    compile 'com.google.guava:guava:16.0.1'
-    compile 'com.google.code.findbugs:jsr305:2.0.1'
-    compile 'com.madgag.spongycastle:core:1.51.0.0'
-    compile 'com.google.protobuf:protobuf-java:2.5.0'
-    compile 'com.google.zxing:core:3.1.0'
-    compile 'ch.acra:acra:4.8.5'
-    compile 'com.android.support:support-v4-preferencefragment:1.0.0@aar'
-    compile 'com.jakewharton:butterknife:7.0.1'
-    compile 'com.android.support:multidex:1.0.1'
+    implementation 'com.google.guava:guava:16.0.1'
+    implementation 'com.google.code.findbugs:jsr305:2.0.1'
+    implementation 'com.madgag.spongycastle:core:1.51.0.0'
+    implementation 'com.google.protobuf:protobuf-java:2.5.0'
+    implementation 'com.google.zxing:core:3.1.0'
+    implementation 'ch.acra:acra:4.8.5'
+    implementation 'com.android.support:support-v4-preferencefragment:1.0.0@aar'
+    implementation 'com.jakewharton:butterknife:7.0.1'
+    annotationProcessor 'com.jakewharton:butterknife:7.0.1'
+    implementation 'com.android.support:multidex:1.0.1'
+    implementation 'org.slf4j:slf4j-jdk14:1.7.6'
+    implementation 'com.squareup.okhttp:okhttp:2.3.0'
 }
 
 //apply plugin: 'robolectric'

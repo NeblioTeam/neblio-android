@@ -3,14 +3,17 @@ package io.nebl.wallet.android.ui;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.DialogInterface;
 import android.database.ContentObserver;
 import android.database.Cursor;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Message;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.app.LoaderManager.LoaderCallbacks;
 import android.support.v4.content.AsyncTaskLoader;
 import android.support.v4.content.Loader;
+import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -158,6 +161,28 @@ public class BalanceFragment extends WalletFragment implements LoaderCallbacks<L
                 application.getApplicationContext(), type.getSymbol(), config.getExchangeCurrencyCode());
         // Update the amount
         updateBalance(pocket.getBalance());
+
+        // Notify users to use Orion
+        AlertDialog.Builder builder = new AlertDialog.Builder(inflater.getContext());
+        builder.setTitle("Neblio for Android Deprecated");
+        builder.setMessage("This wallet does not support NTP1 Tokens.\n\n" +
+                "We suggest you use Neblio Orion at https://orion.nebl.io on your mobile device.\n\n" +
+                "Orion is a web wallet that supports NEBL & NTP1 Tokens that works great on Android, iOS, and Desktop Computers.\n\n" +
+                "We suggest all Android users create a new wallet on Orion and send their NEBL there.\n\n" +
+                "If you would like to continue using this application without NTP1 Token support you can ignore this message.");
+
+        // add buttons
+        builder.setPositiveButton("Ignore", null);
+        builder.setNegativeButton("Visit Orion", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int whichButton) {
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://orion.nebl.io"));
+                startActivity(browserIntent);
+            }
+        });
+
+        // create and show the alert dialog
+        AlertDialog dialog = builder.create();
+        dialog.show();
 
         return view;
     }

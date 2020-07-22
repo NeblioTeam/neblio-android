@@ -1,6 +1,7 @@
 Neblio Wallet
 ===============
 
+## This wallet was deprecated over a year ago and is no longer supported.
 
 ## Building the app
 
